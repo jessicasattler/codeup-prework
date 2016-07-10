@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Iterating Arrays JS</title>
+	</head>
+	<body>
+		 <script src = "js/iterating.js">
+		// //declare and initialize array
+		// 	var shapes = ["square","rectangle","circle","triangle"];
+		// //There are 4 shapes in the array
+		// 	console.log("There are " + shapes.length + " shapes in the array.");
+		// //The first shape is a square
+		// 	console.log("The first shape is a: "+ shapes[0]);
+		// //The second shape is a rectangle
+		// 	console.log("The second shape is a: " + shapes[1]);
+		// //The third shape is a circle
+		// 	console.log("The third shape is a: " + shapes[2]);
+		// //The fourth shape is a trinagle
+		// 	console.log("The fourth shape is a: " + shapes[3]); 
+
+		// var shapes = ['square', 'rectangle', 'circle', 'triangle'];
+
+		// for (var i=0; i < shapes.length; i++){
+		// 	console.log('The shape at index ' + i + ' is a '+ shapes[i]);
+		// }
+		// declare and initialize array
+		var shapes = ['square', 'rectangle', 'circle', 'triangle'];
+
+// loop through the array and log the values
+		
+		shapes.forEach(function (element,index, array) {
+
+    // element is the shape name
+    // index is the iterator
+    // array is the shapes array itself
+
+    	console.log('The shape at index ' + index + ' is: '+ element);
+});
+
+		</script>
+	</body>
+</html>

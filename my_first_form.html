@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		
+				<h4>User Login</h4>
+		<form method="POST" action="http://requestb.in/12c4bks1">
+			<p>
+				<label for="username">Username</
+				label>
+				<input id="username" name="username"
+				type="text" placeboholder="Enter your password here.">
+
+			</p>
+
+			<p>
+				<label for="password">Password</label>
+				<input id="password" name"password" type="password" placeboholder="Enter your password here.">
+			</p>
+				
+		</form>
+				<h4>Compose an Email</h4>
+
+		<form method="POST" action="http://requestb.in/12c4bks1">
+
+			<p>
+				<label for="To">To</label>
+				<input id="To" name="To"
+				type="to" placeholder="Enter the recipient name here.">
+			</p>
+				<label for="From">From</label> 
+				<input id="From" name="From"
+				type="From" placeholder="Enter the sender's name here.">
+			<p>
+				<label for="Subject">Subject</label> 
+				<input id="Subject" name="Subject"type="Subject" placeholder="Enter the subject.">
+			</p>
+
+			<p>
+				<label for="Email Body">Email Body</label>
+				<textarea id="Email Body" name="Email Body" rows="5" cols=40>Content Here</textarea>
+			</p>
+
+			<p>
+				<input type="checkbox" id="mailing_list" name="mailing_list" value="yes" checked>
+				<label for="mailing_list">Save a copy to my sent folder</label>
+
+			
+
+		</form>
+		
+
+			<h4>Multiple Choice Test</h4>
+
+		<form method="POST" action="http://requestb.in/12c4bks1">
+
+			<p>What is 4x4?</p>
+				<label>
+					<input type="radio" name="q1" value="15">
+					15
+				</label>
+			
+				<label>
+					<input type="radio" name="q1" value="16" checked>
+					16
+				</label>
+
+				<label>
+					<input type="radio" name="q1" value="17">
+					17
+				</label>
+			</p>
+
+
+
+			<p>Is Jessica going to be a good software developer?</p>
+				<label>
+					<input type="radio" name="q2" value="no">
+						No
+				</label>
+
+				<label>
+					<input type="radio" name="q2" value="maybe">
+						Maybe
+				</label>
+
+				<label>
+					<input type="radio" name="q2" value="Definitely, yes">
+						Definitely, yes
+				</label>
+				
+			
+
+			<p>What things do you enjoy doing during the weekend?</p>
+				<label><input type="checkbox" id="weekend activity1" name="os[]" value="watching movies"> Watching movies</label>
+
+				<label><input type="checkbox" id="weekend activity2" name="os[]" value="hiking"> Hiking</label>
+
+				<label><input type="checkbox" id="weekend activity3" name="os[]" value="napping with Whitney"> Napping with Whitney</label>
+
+			<p>
+
+				<label for="brand">What iPhones have you owned? </label>
+				<select id="brand" name="brand []" multiple>
+					<option value="iPhone4">iPhone 4</option>
+					<option value="iPhone5">iPhone 5</option>
+					<option value="iPhone6Plus">iPhone 6 Plus</option>
+				</select>
+
+			</p>
+
+
+		</form>
+
+			<h4>Select Testing</h4>
+
+		<form method="POST" action="http://requestb.in/12c4bks1">
+
+				<label for="Sushi Love">Do you love sushi? </label>
+				<select id="Sushi Love" name="Sushi Love">
+					<option value="1">Yes</option>
+					<option value="0" selected>No</option>
+				</select>
+
+			<p>
+				<button type="submit">Submit</button>
+
+			</p>
+
+		</form>
+
+
+	</body>
+</html>

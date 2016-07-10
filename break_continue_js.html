@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Break Continue JS</title>
+	</head>
+	<body>
+		<script>
+
+			// var random = Math.floor((Math.random()*100)+1);
+
+			// console.log('Random stopping point is:' + random);
+
+			// for (var i = 1; i < 100; i++){
+			// 	console.log('Loop counter is: ' + i);
+			// 	if (random == i) {
+			// 		console.log('We have reached the random stopping point: break!');
+			// 		break;
+			// 		console.log('You will never see this line.');
+			// 	}
+			// 	}
+
+			// for (var i = 1; i < 100; i++) {
+			// 	if (i % 2 !== 0) {
+		 // // number isn't even
+   //      // odd numbers aren't as cool
+   //      // skip the rest of the loop and continue with the next iteration
+			// 		continue;
+			// 	}
+			// 	console.log('Here is a lovely even number: '+ i);
+			// }
+
+			
+			var random = Math.floor((Math.random()*50)+1)
+
+				while (random % 2 == 0 ) {
+					random = Math.floor((Math.random()*50)+1)
+				}
+
+			console.log('Random odd number to skip is:' + random);
+
+
+			 	for ( var i = 1; i <= 50; i= i + 2){
+			 		console.log('Here is an odd number:' + i);
+			
+			 	if (random == i) {
+			 		console.log('Yikes! Stopping at number:' + random);
+			 		break;
+			 	}
+			 	}
+
+			 	//Or to do it as they showed in the video:
+
+			 	// for (var i = 1; i < 100; i++){
+			 	// 	if (i % 2 === 0) {
+			 	// 		//Skip the even numbers.
+			 	// 		continue;
+					// }
+
+					// if (random === i) {
+					// 	console.log("Yikes! Skipping number: " + i);
+
+					// }else  {
+					// 	console.log("Here is an odd number: " + i);
+					// }
+
+					// if (i >=49) {
+					// 	break;
+					// }
+			 	// }
+
+		</script>
+	</body>
+</html>
